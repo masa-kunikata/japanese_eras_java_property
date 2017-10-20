@@ -39,6 +39,6 @@ calendar.japanese.eras: \
 	name=Taisho,abbr=T,since=-1812153600000; \
 	name=Showa,abbr=S,since=-1357603200000;  \
 	name=Heisei,abbr=H,since=600220800000;   \
-	name=\u5143\u65e6UTC\u5207\u66ff\u8a2d\u5b9a\u306e\u5143\u53f7,abbr=N,since=1546300800000
+	name=\u56db\u6708\u4e00\u65e5UTC\u5207\u66ff\u5143\u53f7,abbr=N,since=1554076800000
 
 </pre>
