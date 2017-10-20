@@ -19,8 +19,8 @@ public class GengouSettingCheck {
 	 */
 	public static void main(String[] args) {
 		long[] mss = new long[]{
-				1546268400000L, //日本の切り替え時間
-				1546300800000L, //UTCの真夜中（propertyファイルに書いた数値）
+                1554044400000L, //日本の切り替え時間
+                1554076800000L, //UTCの真夜中（propertyファイルに書いた数値）
 		};
 		Arrays.stream(mss).forEach(s -> {
 			System.out.println();
