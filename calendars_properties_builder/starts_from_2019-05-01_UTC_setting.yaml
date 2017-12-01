@@ -1,11 +1,11 @@
 # native2ascii.exeのパス
-native2ascii_exe_path: C:\Program Files\Java\jdk1.8.0_45\bin\native2ascii.exe
+native2ascii_exe_path: C:\Program Files\Java\jdk1.8.0_144\bin\native2ascii.exe
 
 # 開始時刻(ISO8601形式)
-since: "2019-01-01T00:00:00+00:00" # 平成31年（2019年）1月1日 UTC
+since: "2019-05-01T00:00:00+00:00" # 2019年5月1日 UTC
 
 # 名称
-name: 元旦UTC切替設定の元号
+name: 新元号
 
 # 略称
 abbr: N
@@ -28,4 +28,4 @@ erb_template: |
   	name=<%= name %>,abbr=<%= abbr %>,since=<%= since %>
   
 # 出力ファイル名
-file_path: calendars_starts_from_2019-01-01_UTC_sample.properties
+file_path: calendars_starts_from_2019-05-01_UTC_sample.properties

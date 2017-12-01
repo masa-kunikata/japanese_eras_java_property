@@ -19,14 +19,14 @@ public class GentouSettingTest {
 			DateFormat jpFormat = new SimpleDateFormat("GGGGyyyy'年'M'月'd'日'", new Locale("ja", "JP", "JP"));
 
 
-			Date currentGengouDate = isoFmt.parse("2018-12-31T23:59:59.999+0900");
+			Date currentGengouDate = isoFmt.parse("2019-04-30T23:59:59.999+0900");
 			final String currentGengouJpString = jpFormat.format(currentGengouDate);
-			assertEquals(currentGengouJpString, "平成30年12月31日");
+			assertEquals(currentGengouJpString, "平成31年4月30日");
 
 
-			Date nextGengouDate = isoFmt.parse("2019-01-01T00:00:00.000+0900");
+			Date nextGengouDate = isoFmt.parse("2019-05-01T00:00:00.000+0900");
 			final String nextGengouJpString = jpFormat.format(nextGengouDate);
-			assertTrue(nextGengouJpString.endsWith("元年1月1日"));
+			assertTrue(nextGengouJpString.endsWith("元年5月1日"));
 
 
 		} catch (ParseException e) {
