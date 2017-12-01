@@ -10,7 +10,7 @@ import java.util.Locale;
 
 import org.junit.Test;
 
-public class GentouSettingTest {
+public class GengouSettingTest {
 
 	@Test
 	public void testNextJpGengouSetting() {

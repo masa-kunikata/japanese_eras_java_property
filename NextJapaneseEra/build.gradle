@@ -17,6 +17,8 @@ repositories {
     jcenter()
 }
 
+def encoding = { it.encoding = "UTF-8" }
+
 // In this section you declare the dependencies for your production and test code
 dependencies {
     // The production code uses the SLF4J logging API at compile time
@@ -29,10 +31,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-def defaultEncoding = 'UTF-8'
-compileJava {
-    options.encoding = defaultEncoding
-}
-compileTestJava {
-    options.encoding = defaultEncoding
-}
+tasks.withType (AbstractCompile) each {encoding it.options}
