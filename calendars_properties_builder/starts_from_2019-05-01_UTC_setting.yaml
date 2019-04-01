@@ -5,10 +5,10 @@ native2ascii_exe_path: C:\Program Files\Java\jdk1.8.0_144\bin\native2ascii.exe
 since: "2019-05-01T00:00:00+00:00" # 2019年5月1日 UTC
 
 # 名称
-name: 新元号
+name: 令和
 
 # 略称
-abbr: N
+abbr: R
 
 # 出力テンプレート
 erb_template: |

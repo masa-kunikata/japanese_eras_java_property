@@ -39,7 +39,7 @@ calendar.japanese.eras: \
 	name=Taisho,abbr=T,since=-1812153600000; \
 	name=Showa,abbr=S,since=-1357603200000;  \
 	name=Heisei,abbr=H,since=600220800000;   \
-	name=\u65b0\u5143\u53f7,abbr=N,since=1556668800000
+	name=\u4ee4\u548c,abbr=R,since=1556668800000
 
 </pre>
 
